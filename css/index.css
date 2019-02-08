@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  border:1px solid black;
+  margin:0 auto;
+  width:600px;
+  position: relative;
+}
+.wrapper >.start{
+  font-size:30px;
+  color:deepskyblue;
+  border:1px solid deepskyblue;
+  border-radius:8px;
+  width:150px;
+  text-align: center;
+  margin:30px auto;
+  
+}
+
+.wrapper >.difficulty{
+  margin: 30px auto;
+  /* border:1px solid black; */
+  width:300px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.difficulty >.diffItem{
+  display: inline-block;
+  border:1px solid black;
+  padding:5px 15px;
+  border-radius: 5px;
+  /* flex: 1; */
+    
+}
+
+.wrapper >.head {
+  font-size:30px;
+  color:red;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.wrapper >.box{
+  border:1px solid black;
+  width:500px;
+  height:500px;
+  margin:30px auto;
+}
+
+.box > .item{
+  box-sizing:border-box;
+  border:1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.item > .lei{
+  background:url('../img/lei.jpg');
+  width:100%;
+  height:100%;
+  display: none;
+}
+
+.item.qizhi{
+  background:url('../img/qizhi.jpg');
+  background-size: cover;
+  background-position: 40%;
+}
+
+.alertBox{
+  position:absolute;
+  width:400px;
+  height:300px;
+  border:1px solid black;
+  border-radius: 10px;
+  font-size:40px;
+  text-align: center;
+  line-height:300px;
+  left: 50%;
+  top:50%;
+  margin-left:-200px;
+  margin-top:-150px;
+  display: none;
+  background:wheat;
+  opacity:0.4;
+}
