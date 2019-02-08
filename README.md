@@ -27,4 +27,4 @@ js html css
 点击Start按钮开始游戏,鼠标左键点击方块,该位置如果有雷显示失败没有则显示数字,右键点击显示旗子,如果该位置有雷则,雷数-1.找到全部雷,显示成功.通过简单,普通,困难按钮
 来控制游戏难度
 
-![实列](https://github.com/del427/saolei/raw/master/images-folder/saolei.jpg)
+![实列](https://github.com/del427/saolei/raw/master/images-folder/saolei.gif)
